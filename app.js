@@ -6,7 +6,7 @@ const https = require('https');
 //! initializing express app
 const app = express();
 //! telling app to use public folder and all the static files to link together and show static webpage.
-app.use(express.static("public"));
+app.use(express.static(`${__dirname}/public`));
 //! using bodyparser to parse the form data
 app.use(bodyParser.urlencoded({extended:true}));
 
