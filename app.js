@@ -80,6 +80,9 @@ app.listen(process.env.PORT || 8080, (err) => {
     }
 });
 
+
+module.exports = app;
+
 // API-Key
 // 08c175427c77cd3f6e8690758825523f-us21
 
