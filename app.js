@@ -41,7 +41,7 @@ app.post("/", (req, res) => {
     const url =  `https://us21.api.mailchimp.com/3.0/lists/d0df6d5c81`;
     const options = {
         method: "POST",
-        auth: "Dinesh1:08c175427c77cd3f6e8690758825523f-us21"
+        auth: "Dinesh1:d4acbc1ac73eb34304b0b5a7f676018a-us21"
     }
 
     const request = https.request(url, options, (response) => {
@@ -82,9 +82,6 @@ app.listen(process.env.PORT || 8080, (err) => {
 
 
 module.exports = app;
-
-// API-Key
-// 08c175427c77cd3f6e8690758825523f-us21
 
 // list id
 // d0df6d5c81
